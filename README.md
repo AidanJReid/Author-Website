@@ -1,6 +1,6 @@
 # Milestone Project 1
 
-This is going to be my own portfolio website (inc current Git Projects).
+This is going to be my own author website.
 
 ## Tech Used
 
