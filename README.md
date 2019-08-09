@@ -1,28 +1,45 @@
-# Milestone Project 1
+# Project AUTHOR - CI Milestone Project 1
 
-This is going to be my own author website.
+An author site to promote and share the fictional works of yours truly!
+
+## UX
+
+This website is for readers of science fiction or thrillers, both fans of my esteemed work or those with a cursory interest.
+
+The aim is to generate sufficient interest to warrant them visiting the book in the respective book vendor retail site.
+
+* [Balsamiq wireframe](https://balsamiq.cloud/s27rxce/p1yv5wk)
+
+## Features
+
+### Existing
+
+In progress
+
+### Pending
+
+- Sliding cover gallery of book images
+- Newsletter popup or direct link
 
 ## Tech Used
 
-Using Bootstrap, HTML and CSS.
+* Bootstrap
+* HTML
+* CSS.
 
-### Goal and Influence
+## Testing
 
-Influenced by my aidanjreid.com website
+On various screen sizes...
 
-## Estimated Timeframe
 
-Commence 9/8/19
-finish 16/8/19
-
-### Timelines
+## Timelines
 
 * 8/8 - wireframe created and grid layout created (HTML) [Balsamiq wireframe](https://balsamiq.cloud/s27rxce/p1yv5wk)
 * 9/8 - mentor discussion of feasibility and troubleshooting before main build
 * 9/8 - start creating basic template
 * ...
 
-#### Deploying on Github (in anticipation of Milestone 1)
+## Deployment
 
 Following instructons as laid down on [Github](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 
@@ -30,3 +47,17 @@ Following instructons as laid down on [Github](https://help.github.com/en/articl
 2. Hit Settings
 3. Scroll down to select 'Source' and choose 'master' branch.
 4. Save
+
+## Credit
+
+### Content
+
+Author used pre-existing content from his [other site](http:http://www.aidanjreid.com)
+
+### Media
+
+Book images purchased and are the copyright of the author
+
+### Acknowledgements
+
+Pending
