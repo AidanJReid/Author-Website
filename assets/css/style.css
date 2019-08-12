@@ -1,0 +1,40 @@
+
+header {
+    margin: 0;
+}
+
+/*.logo {*/
+/*    background: url("../images/logo.jpg");*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    height: 60px;*/
+/*    width: 33%;*/
+/*}*/
+
+.face {
+    background: url("../images/AidanJ.jpg");
+    height: 260px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+}
+
+.slides {
+    background: url("../images/patreon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    width: 100%;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.navbar {
+    
+}
+
+
+
