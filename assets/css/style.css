@@ -9,31 +9,73 @@ header {
     border: 5px solid #fff;
     background-size: cover;
     background-repeat: no-repeat;
-    float: left;
 }
+
+/* --------------------------- Slide Gallery */
+
+/* --- CSS Animation code found on Youtube - link in README.md */
 
 .slides {
+    position: relative;
     background: url("../images/scroll.png");
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
-    height: 200px;
-    width: 1500px;
-    border: 5px solid #fff;
-    box-shadow: 0 20px 30px rgba(0,0,0,.5);
-    transition: 3s;
+    background-position: 0 0;
+    animation: animate 5s linear infinite;
+    animation-direction: alternate;
 }
 
-.slides:hover {
-    background-position: right;
+@keyframes animate {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
 }
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
+
+
+/* --------------------------- NAV BAR */
+
 
 .nav-item {
     text-transform: uppercase;
 }
 
+.nav-item  a {
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 20px;
+}
 
+/* --------------------------- BIO */
+
+.smile {
+    background: url("../images/ajr.jpg");
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* --------------------------- BOOKS */
+
+.sigil-image {
+    background:url("../images/sigily.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+.yage-image {
+    background:url("../images/yage.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+.rot-image {
+    background:url("../images/ROT.jpg");
+    height: 300px;
+    background-size: cover;
+    border: 1px solid black;
+}
 
