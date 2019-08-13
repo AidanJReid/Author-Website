@@ -3,30 +3,30 @@ header {
     margin: 0;
 }
 
-/*.logo {*/
-/*    background: url("../images/logo.jpg");*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*    height: 60px;*/
-/*    width: 33%;*/
-/*}*/
-
 .face {
-    background: url("../images/updatelogo.png");
-    height: 300px;
+    background: url("../images/bald1.png");
+    height: 200px;
+    border: 5px solid #fff;
     background-size: cover;
     background-repeat: no-repeat;
     float: left;
 }
 
 .slides {
-    background: url("../images/patreon.png");
+    background: url("../images/scroll.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    background-position: left;
+    height: 200px;
+    width: 1500px;
+    border: 5px solid #fff;
+    box-shadow: 0 20px 30px rgba(0,0,0,.5);
+    transition: 3s;
 }
 
+.slides:hover {
+    background-position: right;
+}
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
