@@ -58,6 +58,10 @@ header {
     background-repeat: no-repeat;
 }
 
+.bio {
+    background-color: pink;
+}
+
 /* --------------------------- BOOKS */
 
 .sigil-image {
@@ -79,3 +83,58 @@ header {
     border: 1px solid black;
 }
 
+.path-image {
+    background:url("../images/PF.RF.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+.rl-image {
+    background:url("../images/rl.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+.ss-image {
+    background:url("../images/spec.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+.books {
+    background-color: yellow;
+    background-size: cover;
+}
+
+/*----------------------- Card*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container-blog-item {
+  padding: 2px 16px;
+}
+
+.card3 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container-3 {
+  padding: 2px 16px;
+}
