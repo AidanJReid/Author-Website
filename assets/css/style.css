@@ -1,13 +1,20 @@
+/* --------------------------- MISC/FONTS */
+
+h1 {
+    
+}
+
+/* --------------------------- HEADER */
 
 header {
     margin: 0;
 }
 
-.face {
-    background: url("../images/bald1.png");
+.logo {
+    background: url("../images/bald2.png");
     height: 200px;
-    border: 5px solid #fff;
-    background-size: cover;
+    border: 1px solid gray;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -22,6 +29,7 @@ header {
     background-position: 0 0;
     animation: animate 5s linear infinite;
     animation-direction: alternate;
+    border: 1px solid gray;
 }
 
 @keyframes animate {
@@ -29,32 +37,32 @@ header {
         background-position: 0 0;
     }
     to {
-        background-position: 100% 0;
+        background-position: 85% 0;
     }
 }
 
 
 /* --------------------------- NAV BAR */
 
-
-.nav-item {
-    text-transform: uppercase;
+.sticky-top {
+    position: sticky;
+    top: 0;
 }
 
-.nav-item  a {
-  color: #f2f2f2;
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-  margin: 0 20px;
+.nav-item a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+    text-transform: uppercase;
 }
 
 /* --------------------------- BIO SECTION */
 
 .smile {
-    background: url("../images/ajr.jpg");
-    height: 200px;
-    background-size: contain;
+    background: url("../images/prof.png");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -65,46 +73,102 @@ header {
 
 /* --------------------------- BOOKS SECTION */
 
-.sigil-image {
-    background:url("../images/sigily.jpg");
-    height: 300px;
-    background-size: cover;
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 500px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
 }
 
-.yage-image {
-    background:url("../images/yage.jpg");
-    height: 300px;
-    background-size: cover;
+/* This container is needed to position the front and back side */
+.flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
 
-.rot-image {
-    background:url("../images/ROT.jpg");
-    height: 300px;
-    background-size: cover;
-    border: 1px solid black;
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-inner {
+  transform: rotateY(180deg);
 }
 
-.path-image {
-    background:url("../images/PF.RF.jpg");
-    height: 300px;
-    background-size: cover;
+/* Position the front and back side */
+.flip-front, .flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
 }
 
-.rl-image {
-    background:url("../images/rl.jpg");
-    height: 300px;
-    background-size: cover;
+/* Style the back side */
+.flip-back {
+    padding-top: 50%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.20);
+    color: white;
+    transform: rotateY(180deg);
 }
 
-.ss-image {
-    background:url("../images/spec.jpg");
-    height: 300px;
-    background-size: cover;
+/* Style flips side IDs*/
+
+#sigback {
+    background-color: #082E23;
+    color: #2CBC9B;
 }
+
+#rlback {
+    background-color: #212121;
+    color: #FEBD49;
+}
+
+#yageback {
+    background-color: #06284E;
+    color: #18BDFF;
+}
+
+#pathback {
+    background-color: #64DCF7;
+    color: #FFFFFF;
+}
+
+#rotback {
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+#shortback {
+    background-color: #DADADA;
+    color: #4A7EC7;
+}
+
 
 .books {
     background-color: yellow;
     padding: 20px;
+}
+
+/*------------------- button colour codes sourced from book image using https://html-color-codes.info/colors-from-image/ ----*/
+
+
+.book-read {
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.book-read:hover {
+  /*background-color: red;*/
+  /*color: orange;*/
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /*----------------------- BLOG section*/
@@ -135,43 +199,22 @@ h3 {
     padding-top: 15px;
 }
 
-#button {
-    text-align: center;
-}
-
-button {
-    cursor: pointer;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-transition-duration: 0.4s;
-    -moz-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-}
-
-button:hover {
-  background-color: #34b1eb;
-  color: white;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
 .blog {
     background-color: gray;
     padding: 20px;
+}
+
+#blogmore {
+
 }
 
 /*----------------------- FREE section*/
 
 /*img for ref - <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@impatrickt?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Patrick Tomasso"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Patrick Tomasso</span></a>*/
 
-/*.free-container {*/
-/*    background:url("../images/unsplash.jpg");*/
-/*    padding: 0;*/
-/*    background-size: cover;*/
-/*    background-repeat: no-repeat;*/
-/*}*/
-
 .free {
     background:url("../images/unsplash.jpg");
-    height: 210px;
+    height: 475px;
     padding: 20px;
     background-attachment: fixed;
     background-position: center;
@@ -181,6 +224,19 @@ button:hover {
 
 .jumbotron {
     padding: 16px 32px;
+}
+
+#minicc {
+    height: 70%;
+    width: 70%;
+}
+
+#fright {
+    text-align: left;
+}
+
+#subscribe {
+    float: right;
 }
 
 /*----------------------- FORM section - https://www.w3schools.com/css/css_form.asp */

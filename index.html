@@ -15,15 +15,15 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3 face">
+                <div class="col-md-3 logo">
                 </div>
                 <div class="col-md-9 slides">
                 </div>
             </div>
         </div>
-
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top justify-content-center">
-            <ul class="navbar-nav">
+        
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center sticky-top">
+            <ul class="navbar-nav sticky-top">
                 <li class="nav-item">
                     <a href="#" class="nav-link">Home</a>
                 </li>
@@ -49,11 +49,14 @@
     <div class="container bio">
         <h1>Bio</h1>
         <div class="row">
-            <div class="col-xs-6 col-md-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut architecto repellat obcaecati repudiandae a et illum vel corporis ratione consequuntur sunt facilis esse, numquam magni, harum maiores laudantium.</p>
-                <p>>eritatis ipsam modi. Pariatur, temporibus veritatis! Quae illum, ad illo quis iure ratione rerum consectetur dolor beatae dignissimos repellendus? At, illum, deleniti.</p>
-            </div>
-            <div class="col-xs-6 col-md-4 smile">
+            <div class="col">
+                <p>AIDAN J. REID is a thriller author originally from Cloughmills, Northern Ireland.<br>
+                    </br>
+                    As of May 2019, he has written four novels. PATHFINDERS (sci-fi), RAISING LAZARUS (suspense) and the Tom Regan Thrillers, SIGIL and YAGE. He has also written several short stories and is most proud of the ROT collection, which tells the story of a rogue
+                    tooth fairy who pulls teeth out of the mouths of kids for a tidy profit.<br>
+                    </br>
+                    You can find out more on aidanjreid.com, follow him @aidanjreid or get a bunch of free goodies by following his newsletter - http://eepurl.com/c7ffO9</div>
+            <div class="col smile">
             </div>
         </div>
     </div>
@@ -61,53 +64,115 @@
     <div class="container books">
         <h1>Books</h1>
         <div class="row">
-            <div class="col-xs-6 col-md-2 sigil-image">
+            <div class="col-md-4 books">
+                <div class="flip-card">
+                    <div class="flip-inner" id="flip-sigil">
+                        <div class="flip-front">
+                            <img src="assets/images/sigily.jpg" alt="Sigil" style="width:300px;height:500px;">
+                        </div>
+                        <div class="flip-back" id="sigback">
+                            <h3>Every village has its secrets...</h3>
+                            <button type="button" class="btn btn-lg btn-success">Read More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-6 col-md-2 sigil-text">
-                <h2>Sigil</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis necessitatibus tempora magnam, ratione officia vel distinctio fugiat nesciunt eius, modi atque impedit minima praesentium, alias!</p>
+            <div class="col-md-4 books">
+                <div class="flip-card">
+                    <div class="flip-inner" id- "flip-yage">
+                        <div class="flip-front">
+                            <img src="assets/images/yage.jpg" alt="Yage" style="width:300px;height:500px;">
+                        </div>
+                        <div class="flip-back" id="yageback">
+                            <h3>Evil has found a new home...</h3>
+                            <button type="button" class="btn btn-lg btn-success">Read More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-6 col-md-2 yage-image">
-            </div>
-            <div class="col-xs-6 col-md-2 yage-text">
-                <h2>Yage</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis necessitatibus tempora magnam, ratione officia vel distinctio fugiat nesciunt eius, modi atque impedit minima praesentium, alias!</p>
-            </div>
-            <div class="col-xs-6 col-md-2 rot-image">
-            </div>
-            <div class="col-xs-6 col-md-2 rot-text">
-                <h2>ROT</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis necessitatibus tempora magnam, ratione officia vel distinctio fugiat nesciunt eius, modi atque impedit minima praesentium, alias!</p>
+            <div class="col-md-4 books">
+                <div class="flip-card">
+                    <div class="flip-inner" id="flip-rot">
+                        <div class="flip-front">
+                            <img src="assets/images/ROT.jpg" alt="ROT" style="width:300px;height:500px;">
+                        </div>
+                        <div class="flip-back" id="rotback">
+                            <h3>Not all heroes are heroic!</h3>
+                            <button type="button" class="btn btn-lg btn-success">Read More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-6 col-md-2 path-image">
+            <div class="col-md-4 books">
+                <div class="flip-card">
+                    <div class="flip-inner" id="flip-path">
+                        <div class="flip-front">
+                            <img src="assets/images/PF.RF.jpg" alt="Pathfinders" style="width:300px;height:500px;">
+                        </div>
+                        <div class="flip-back" id="pathback">
+                            <h3>In the darkest corners of your mind, they hunt...</h3>
+                            <button type="button" class="btn btn-lg btn-success">Read More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-6 col-md-2 path-text">
-                <h2>Pathfinders</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis necessitatibus tempora magnam, ratione officia vel distinctio fugiat nesciunt eius, modi atque impedit minima praesentium, alias!</p>
+            <div class="col-md-4 books">
+                <div class="flip-card">
+                    <div class="flip-inner" id="flip-rl">
+                        <div class="flip-front">
+                            <img src="assets/images/rl.jpg" alt="Raising Lazarus" style="width:300px;height:500px;">
+                        </div>
+                        <div class="flip-back" id="rlback">
+                            <h4>Cursed with eternal life?</h4>
+                            <h4>Or a dangerous psychopath?</h4>
+                            <button type="button" class="btn btn-lg btn-success">Read More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-6 col-md-2 rl-image">
-            </div>
-            <div class="col-xs-6 col-md-2 rl-text">
-                <h2>Raising Lazarus</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis necessitatibus tempora magnam, ratione officia vel distinctio fugiat nesciunt eius, modi atque impedit minima praesentium, alias!</p>
-            </div>
-            <div class="col-xs-6 col-md-2 ss-image">
-            </div>
-            <div class="col-xs-6 col-md-2 ss-text">
-                <h2>SHORTS</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis necessitatibus tempora magnam, ratione officia vel distinctio fugiat nesciunt eius, modi atque impedit minima praesentium, alias!</p>
+            <div class="col-md-4 books">
+                <div class="flip-card">
+                    <div class="flip-inner" id="flip-shorts">
+                        <div class="flip-front">
+                            <img src="assets/images/spec.jpg" alt="Short Stories" style="width:300px;height:500px;">
+                        </div>
+                        <div class="flip-back" id="shortback">
+                            <h3>Experience these thrilling FREE short stories!</h3>
+                            <button type="button" class="btn btn-lg btn-success">Read More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    </div>
     <div class="container free">
-        <div class="jumbotron scroll">
-            <h2 class="display-8">Free Gift!</h2>
-            <p class="lead">Download your free gift by subscribing!
-            </p>
-            <a class="btn btn-danger btn-md" href="#" role="button">Feed Me!
-            </a>
+        <div class="jumbotron scroll text-center hoverable p-4">
+            <div class="row">
+                <div class="col-md-4 offset-md-1 mx-3 my-3">
+                    <div class="view overlay">
+                        <img src="assets/images/cc3d.png" class="img-fluid" id="minicc">
+                        <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-7 text-md-left ml-3 mt-3">
+                    <h2>To Predict the Future, Look to the Past</h2>
+                    <h3>Free Download!</h3>
+                    <p>A mysterious ancient artifact washes up on the beach of a small coastal town.</p>
+                    <p>For one man, the discovery is about to radically change his life for the better. </p>
+                    <p>But for those around him, it leaves a trail of unimaginable destruction.</p>
+                    <hr>
+                    <p id="fright"><em>'Intense new short story!'</em> - <strong>Amazon Reviewer</strong></p>
+                    <p id="fright"><em>'A Great Read!'</em> - <strong>Lucy's Book Blog</strong></p>
+                    <button type="button" class="btn btn-danger btn-lg" id="subscribe" href="#">Subscribe!
+                </button>
+                </div>
+            </div>
         </div>
     </div>
     <div class="container blog">
@@ -120,7 +185,7 @@
                         <h3>Rejection</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia sunt molestiae omnis aspernatur. Illo.</p>
                         <div id="button">
-                            <button>Read More</button>
+                            <button type="button" class="btn btn-warning" id="blogmore" href="#">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -133,7 +198,7 @@
                         <h3>Chill Out!</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia sunt molestiae omnis aspernatur. Illo.</p>
                         <div id="button">
-                            <button>Read More</button>
+                            <button type="button" class="btn btn-warning" id="blogmore" href="#">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -146,7 +211,7 @@
                         <h3>New Book Anyone?</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia sunt molestiae omnis aspernatur. Illo.</p>
                         <div id="button">
-                            <button>Read More</button>
+                            <button type="button" class="btn btn-warning" id="blogmore" href="#">Read More</button>
                         </div>
                     </div>
                 </div>
