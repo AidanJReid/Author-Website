@@ -14,11 +14,11 @@ The aim is to generate sufficient interest to warrant them visiting the book in 
 
 ### Existing
 
-In progress
+* Used a sliding image which scrolls on the x-axis to showcase my books. This was achieved entirely through CSS, stitching the book covers together in 1 long image at the suggestion of my mentor. The code was inspired by the following [Youtube video](https://www.youtube.com/watch?v=e3_qXLoIFds)
 
 ### Pending
 
-- Sliding cover gallery of book images
+
 - Newsletter popup or direct link
 
 ## Tech Used
