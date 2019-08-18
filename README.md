@@ -38,7 +38,7 @@ Displayed on screen sizes throughout from Galaxy S5 - Large Desktop ensuring res
 * 18/8 - majority of tasks completed, Deploy on Github
 * 19/8 - second discussion w/ mentor - troubleshooting
 
-- Still todo list! -
+Still todo list!
 * Make navbar sticky (w/o JS) to the top as I scroll down!!!
 
 ## Deployment
@@ -60,16 +60,16 @@ Book section (cards)
 
 ### Content
 
-Author used some pre-existing content from his [other site](http:http://www.aidanjreid.com)
+Author used some pre-existing content from his [other site](http://www.aidanjreid.com)
 
 ### Media
 
 Images for Blog section
-* [Pixabay 1](https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3083099)
-* [Pixabay2](https://pixabay.com/photos/frog-sofa-relaxation-rest-funny-1073427/)
+* [Pixabay 1 - Criticism](https://pixabay.com/images/id-3083099/)
+* [Pixabay 2 - Frog](https://pixabay.com/photos/frog-sofa-relaxation-rest-funny-1073427/)
 
 Background images
-* [Unsplash](https://unsplash.com/@impatrickt?utm_medium=referral&amp)
+* [Unsplash](https://unsplash.com/photos/Oaqk7qqNh_c)
 * [Canva](http://www.canva.com) - free stock image as part of author's subscription
 
 Other images (book covers)
