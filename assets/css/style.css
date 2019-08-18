@@ -352,7 +352,9 @@ input[type=submit]:hover {
 
 #frog {
     background: url("../images/frog.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* paperback img courtesy of author */

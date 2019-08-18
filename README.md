@@ -2,6 +2,8 @@
 
 An author site to promote and share the fictional works of yours truly!
 
+Site can be viewed here: https://aidanjreid.github.io/Milestone-Project1/
+
 ## UX
 
 This website is for readers of science fiction or thrillers, both fans of my esteemed work or those with a cursory interest.
@@ -40,14 +42,16 @@ Displayed on screen sizes throughout from Galaxy S5 - Large Desktop ensuring res
 
 Still todo list!
 * Make navbar sticky (w/o JS) to the top as I scroll down!!!
+* Favicon?
+* Reduce image size to increase download speed?
 
 ## Deployment
 
 Following instructons as laid down on [Github](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 
-1. Within Github navigate to Page site repository
-2. Hit Settings
-3. Scroll down to select 'Source' and choose 'master' branch.
+1. Within Github navigate to specific repository
+2. Hit Settings tab
+3. Scroll down to section 'Guthub Pages', select 'Source' and choose 'master' branch.
 4. Save
 
 ## Credit
@@ -78,3 +82,5 @@ Other images (book covers)
 ### Acknowledgements
 
 A debt of thanks to my mentor Brian Macharia.
+
+Initial concept of sliding book cover images orginated from [J.A. Konrath website](http://www.jakonrath.com).
