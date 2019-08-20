@@ -63,7 +63,7 @@ Book section (creating cards)
 
 ### Content
 
-Author used some pre-existing content from his [other site](http://www.aidanjreid.com)
+Author used some pre-existing content from his [other site](http://www.aidanjreid.com).
 Lorem Ipsom text was used for the blog content merely for display purposes.
 
 ### Media
