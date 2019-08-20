@@ -37,6 +37,10 @@ The aim is to generate sufficient interest to warrant them visiting the book on 
 
 Displayed on screen sizes throughout from Galaxy S5 - Large Desktop ensuring responsiveness.
 
+Tested HTML code on [code validator](https://validator.w3.org/) to improve and clean code.
+
+Tested each form field inputs to ensure that fields are required and that email is requested.
+
 
 ## Timelines
 
