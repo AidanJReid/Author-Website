@@ -1,6 +1,7 @@
-# Project AUTHOR - CI Milestone Project 1
+# Code Institute Milestone Project 1 - Author Website
 
-An author site to promote and share the fictional works of yours truly!
+An author site to promote. market and share the fictional works of yours truly! 
+Links provided from book images leading to Amazon retail site where the user can then read more and/or purchase.
 
 Site can be viewed here: https://aidanjreid.github.io/Milestone-Project1/
 
@@ -18,17 +19,19 @@ The aim is to generate sufficient interest to warrant them visiting the book on 
 
 * Used a sliding image which scrolls on the x-axis to showcase my books. This was achieved entirely through CSS, stitching the book covers together in 1 long image at the suggestion of my mentor.
 * The code was inspired by the following [Youtube video](https://www.youtube.com/watch?v=e3_qXLoIFds)
-* External links in the 'Books', 'Free', and the newsletter mention in the 'Bio' sections respectively open new browser pages to Amazon book site, external mailing list provider - [Mailchimp](http:www.mailchimp.com) and [Bookfunnel](http://www.bookfunnel.com) (reader magnet site)
+* External links in the 'Books', 'Free', and the newsletter mention in the 'Bio' sections respectively, open new browser pages to Amazon book site and external mailing list provider - [Mailchimp](http:www.mailchimp.com) and [Bookfunnel](http://www.bookfunnel.com) (reader magnet site)
 
 ## Tech Used
 
 * [Bootstrap](https://getbootstrap.com/)
-* HTML
-* CSS.
-* Tiny bit of JS just for collapsible and sticky navbar
-* [Compressjpeg.com](https://compressjpeg.com) (reduce size of cover images)
-* [Balsamiq]((https://balsamiq.cloud/s27rxce/p1yv5wk)) for wireframes
+* [AWS Cloud9](https://aws.amazon.com/cloud9/)
+* HTML5
+* CSS3
+* Tiny bit of JS just for collapsible navbar
+* [Compressjpeg.com](https://compressjpeg.com) Used to reduce size of cover images)
+* [Balsamiq](https://balsamiq.cloud/s27rxce/p1yv5wk) for wireframe
 * [Canva](https://www.canva.com) for stitching of cover image slider
+* [Font Awesome](https://fontawesome.com/) Used for name and title in upper left of site
 
 ## Testing
 
@@ -42,14 +45,14 @@ Displayed on screen sizes throughout from Galaxy S5 - Large Desktop ensuring res
 * 9/8 - start creating basic template
 * 18/8 - majority of tasks completed, Deploy on Github
 * 19/8 - second discussion w/ mentor - troubleshooting
-* 20/8 - completed project
+* 20/8 - completed project | Submission
 
 ## Deployment
 
 Following instructions as laid down on [Github](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 
-1. Within Github navigate to specific repository
-2. Hit Settings tab
+1. Create new repository for Milestone Project One.
+2. Hit Settings tab on given repository
 3. Scroll down to section 'Github Pages', select 'Source' and choose 'master' branch.
 4. Save
 
@@ -84,6 +87,6 @@ Other images (book covers)
 
 ### Acknowledgements
 
-A debt of thanks to my mentor Brian Macharia.
+A debt of thanks to my mentor at Code Institute, Brian Macharia.
 
 Initial concept of sliding book cover images orginated from [J.A. Konrath website](http://www.jakonrath.com).
