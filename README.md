@@ -25,7 +25,7 @@ The aim is to generate sufficient interest to warrant them visiting the book on 
 * [Bootstrap](https://getbootstrap.com/)
 * HTML
 * CSS.
-* Tiny bit of JS just for collapsible navbar
+* Tiny bit of JS just for collapsible and sticky navbar
 * [Compressjpeg.com](https://compressjpeg.com) (reduce size of cover images)
 * [Balsamiq]((https://balsamiq.cloud/s27rxce/p1yv5wk)) for wireframes
 * [Canva](https://www.canva.com) for stitching of cover image slider
@@ -60,6 +60,9 @@ Form section
 
 Book section (creating cards)
 * [w3 schools](https://www.w3schools.com/howto/howto_css_flip_card.asp)
+
+Sticky navbar
+* [w3 schools](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
 
 ### Content
 
