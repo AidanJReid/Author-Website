@@ -78,12 +78,6 @@ header {
     text-transform: uppercase;
 }
 
-/* Can't get the sticky navbar to work! */
-
-.navbar {
-    position: sticky;
-    top: 0;
-}
 
 /* --------------------------- BIO SECTION */
 
