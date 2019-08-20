@@ -64,8 +64,8 @@ Form section
 Book section (creating cards)
 * [w3 schools](https://www.w3schools.com/howto/howto_css_flip_card.asp)
 
-Sticky navbar
-* [w3 schools](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
+Collapsible navbar
+* [w3 schools](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)
 
 ### Content
 
