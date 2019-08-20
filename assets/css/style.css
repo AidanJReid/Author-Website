@@ -1,7 +1,7 @@
 /* --------------------------- MISC/FONTS */
 
 #body-bg {
-    background:url("../images/gen-bg2.png"); /*Free uncredited canva img as part of my subscription */
+    background:url("../images/bg-image.jpg"); /*Free uncredited canva img as part of my subscription */
     background-size: contain;
     background-repeat: repeat;
 }
@@ -48,7 +48,7 @@ header {
 
 .slides {
     position: relative;
-    background: url("../images/scroll.png");
+    background: url("../images/scroll.jpg");
     background-size: cover;
     background-position: 0 0;
     animation: animate 5s linear infinite;
@@ -62,7 +62,7 @@ header {
         background-position: 0 0;
     }
     to {
-        background-position: 70% 0;
+        background-position: 100% 0;
     }
 }
 
@@ -104,7 +104,6 @@ header {
 
 .big-center-header {
     text-align: center;
-    text-decoration: uppercase;
 }
 
 
@@ -184,11 +183,11 @@ header {
 
 /* container for book section styling */
 
-.books {
+#books {
     background-color: white;
-    padding: 20px;
     margin-top: 20px;
     align-items: center;
+    padding: 15px;
 }
 
 .btn-light a {
@@ -255,10 +254,10 @@ h3 {
 
 /*----------------------- FREE section*/
 
-/* background img - href="https://unsplash.com/photos/Oaqk7qqNh_c */
+/* book background img - href="https://unsplash.com/photos/Oaqk7qqNh_c */
 
 .free {
-    background:url("../images/unsplash.jpg");
+    background:url("../images/book-bg.jpg");
     padding: 20px;
     background-attachment: fixed;
     background-position: center;
@@ -327,8 +326,8 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.form {
-    text-align: right;
+#form {
+    text-align: center;
     height: 350px;
     padding-right: 20px;
     padding-top: 20px;

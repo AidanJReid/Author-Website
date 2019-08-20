@@ -22,10 +22,13 @@ The aim is to generate sufficient interest to warrant them visiting the book on 
 
 ## Tech Used
 
-* Bootstrap
+* [Bootstrap](https://getbootstrap.com/)
 * HTML
 * CSS.
 * Tiny bit of JS just for collapsible navbar
+* [Compressjpeg.com](https://compressjpeg.com) (reduce size of cover images)
+* [Balsamiq]((https://balsamiq.cloud/s27rxce/p1yv5wk)) for wireframes
+* [Canva](https://www.canva.com) for stitching of cover image slider
 
 ## Testing
 
@@ -34,24 +37,20 @@ Displayed on screen sizes throughout from Galaxy S5 - Large Desktop ensuring res
 
 ## Timelines
 
-* 8/8 - wireframe created and grid layout created (HTML) [Balsamiq wireframe](https://balsamiq.cloud/s27rxce/p1yv5wk)
+* 8/8 - wireframe and grid layout created (HTML) [Balsamiq wireframe](https://balsamiq.cloud/s27rxce/p1yv5wk)
 * 9/8 - mentor discussion of feasibility and troubleshooting before main build
 * 9/8 - start creating basic template
 * 18/8 - majority of tasks completed, Deploy on Github
 * 19/8 - second discussion w/ mentor - troubleshooting
-
-Still todo list!
-* Make navbar sticky (w/o JS) to the top as I scroll down!!!
-* Favicon?
-* Reduce image size to increase download speed?
+* 20/8 - completed project
 
 ## Deployment
 
-Following instructons as laid down on [Github](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
+Following instructions as laid down on [Github](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages)
 
 1. Within Github navigate to specific repository
 2. Hit Settings tab
-3. Scroll down to section 'Guthub Pages', select 'Source' and choose 'master' branch.
+3. Scroll down to section 'Github Pages', select 'Source' and choose 'master' branch.
 4. Save
 
 ## Credit
@@ -59,12 +58,13 @@ Following instructons as laid down on [Github](https://help.github.com/en/articl
 Form section
 * [w3 schools](https://www.w3schools.com/css/css_form.asp)
 
-Book section (cards)
+Book section (creating cards)
 * [w3 schools](https://www.w3schools.com/howto/howto_css_flip_card.asp)
 
 ### Content
 
 Author used some pre-existing content from his [other site](http://www.aidanjreid.com)
+Lorem Ipsom text was used for the blog content merely for display purposes.
 
 ### Media
 
