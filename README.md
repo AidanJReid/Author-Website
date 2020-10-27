@@ -3,7 +3,7 @@
 An author site to promote. market and share the fictional works of yours truly! 
 Links provided from book images leading to Amazon retail site where the user can then read more and/or purchase.
 
-Site can be viewed here: https://aidanjreid.github.io/Milestone-Project1/
+Site can be viewed here: https://aidanjreid.github.io/Author-Website/
 
 ## UX
 
